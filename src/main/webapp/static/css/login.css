@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(../img/pt11.jpg) no-repeat; /*图片不重复*/
+    /*background-image:url("../../static/img/pt7.jpg");*/
+}
+
+.background {
+    width: 1400px;
+    height: 550px;
+    margin: 170px 260px;
+    border: 1px solid gainsboro;
+    box-shadow: 10px 10px 10px darkgray;
+}
+
+/*-----------------------------------左侧——图片-------------------------------*/
+.pt_imgs {
+    width: 1000px;
+    height: 550px;
+    float: left;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.img {
+    width: 1000px;
+    height: 550px;
+    display: none;
+}
+
+/*-----------------------------------右侧——登录-------------------------------*/
+.pt_login {
+    width: 400px;
+    height: 550px;
+    float: right;
+}
+
+.pt_login_fram {
+    width: 350px;
+    height: 500px;
+    margin: 25px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 10px darkgray;
+    border-radius: 10px;
+}
+
+.pt_login_fram p {
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 0px 40px;
+}
+
+.pt_login_fram input {
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pt_name, .pt_password {
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.pt_checkbox {
+    margin: 20px 0px 20px;
+}
+
+.pt_button {
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: bisque;
+}
