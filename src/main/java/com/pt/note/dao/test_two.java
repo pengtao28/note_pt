@@ -5,4 +5,7 @@ package com.pt.note.dao;
  * @date 2022/2/26
  */
 public class test_two {
+    public static void main(String[] args) {
+
+    }
 }
