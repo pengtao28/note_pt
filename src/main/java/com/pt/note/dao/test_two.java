@@ -6,6 +6,6 @@ package com.pt.note.dao;
  */
 public class test_two {
     public static void main(String[] args) {
-        System.out.println("");
+        System.out.println("hhhhhh");
     }
 }
